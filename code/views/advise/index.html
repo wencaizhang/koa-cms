@@ -1,0 +1,24 @@
+{% extends "common/layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/home/main.css">
+<link rel="stylesheet" href="/advise/main.css">
+{% endblock %}
+
+{% block body %}
+
+
+<h1>建议反馈</h1>
+<form>
+<div>
+  <label for="desc">问题描述：</label>
+  <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+</div>
+<div>
+  <label for="contact">联系方式：</label>
+  <input name="contact" id="contact" type="text"><span> Email或电话，方便第一时间联系您</span>
+</div>
+
+<button>提交问题或建议</button>
+</form>
+{% endblock %}

@@ -1,0 +1,11 @@
+form {
+  width: 800px;
+  margin: 0 auto;
+}
+
+form > div {
+  margin: 20px 0;
+}
+form > div > * {
+  vertical-align: top;
+}
